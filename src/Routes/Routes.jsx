@@ -20,6 +20,7 @@ import Payment from "../pages/Dashboard/Payment/Payment";
 import PaymentHistory from "../pages/Dashboard/PaymentHistory/PaymentHistory";
 import UserHome from "../pages/Dashboard/UserHome/UserHome";
 import AdminHome from "../pages/Dashboard/AdminHome/AdminHome";
+import UserReview from "../pages/Dashboard/UserReview/UserReview";
 
 
   export const router = createBrowserRouter([
@@ -61,6 +62,10 @@ import AdminHome from "../pages/Dashboard/AdminHome/AdminHome";
         {
           path: 'userHome',
           element: <UserHome></UserHome>
+        },
+        {
+          path: 'review',
+          element: <UserReview></UserReview>
         },
         {
           path: 'cart',
