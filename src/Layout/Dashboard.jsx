@@ -7,13 +7,15 @@ import useAdmin from "../hooks/useAdmin";
 const Dashboard = () => {
     const [cart] = useCart();
 
-    // TODO: get isAdmin value from the database
     const [isAdmin] = useAdmin();
 
     return (
         <div className="flex">
             {/* dashboard side bar */}
             <div className="w-64 min-h-screen bg-orange-400">
+                <div className="text-3xl font-bold text-center my-5 text-white">
+                    <NavLink to='/'>FoodHop</NavLink>
+                </div>
                 <ul className="menu p-4">
                     {
                         isAdmin ? <>

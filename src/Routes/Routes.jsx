@@ -21,6 +21,7 @@ import PaymentHistory from "../pages/Dashboard/PaymentHistory/PaymentHistory";
 import UserHome from "../pages/Dashboard/UserHome/UserHome";
 import AdminHome from "../pages/Dashboard/AdminHome/AdminHome";
 import UserReview from "../pages/Dashboard/UserReview/UserReview";
+import ManageBookings from "../pages/Dashboard/ManageBookings/ManageBookings";
 
 
   export const router = createBrowserRouter([
@@ -94,9 +95,13 @@ import UserReview from "../pages/Dashboard/UserReview/UserReview";
           element: <AdminRoute><ManageItems></ManageItems></AdminRoute>
         },
         {
+          path: 'bookings',
+          element: <AdminRoute><ManageBookings></ManageBookings></AdminRoute>
+        },
+        {
           path: 'updateItem/:id',
           element: <AdminRoute><UpdateItem></UpdateItem></AdminRoute>,
-          loader: ({params}) => fetch(`http://localhost:3000/menu/${params.id}`)
+          loader: ({params}) => fetch(`https://full-stack-task-management-app-server.vercel.app/menu/${params.id}`)
         },
         {
           path: 'users',

@@ -1,14 +1,54 @@
-# Bistro Boss Client with Aggregate
 
-Server Repo Link: [Bistro Boss Server with Aggregate](https://github.com/ProgrammingHero1/bistro-boss-server-with-aggregate-part_8)
 
-## What We Did Today
+## FoodHop
 
-- **Different Dashboard Home Page for User and Admin**: Implemented distinct home pages for users and administrators to provide customized experiences based on roles.
-- **Fix Login Issue and API Race Condition**: Resolved issues related to user login and addressed race conditions in API requests to ensure smooth and reliable operations.
-- **Create Admin Dashboard Stats API**: Developed an API to fetch and display statistical data for the admin dashboard, providing insights into various metrics.
-- **Load Data and Display Stats on the Admin Home**: Loaded statistical data and displayed it on the admin home page to give administrators a quick overview of important metrics.
-- **High-Level Overview of Aggregate Pipeline**: Provided a high-level overview of the MongoDB aggregate pipeline for data aggregation and analysis.
-- **Get Order Quantity and Revenue by Category**: Used aggregate functions to calculate order quantities and revenue by category, enabling detailed financial insights.
-- **Display Custom Bar Chart and Custom Pie Chart**: Created custom bar and pie charts to visually represent data, making it easier to understand and analyze.
-- **Deploy Bistro Boss to Vercel and Firebase**: Deployed the Bistro Boss application to Vercel and Firebase for hosting, ensuring scalability and high availability.
+
+## Live site url
+https://hostelhub-1b756.web.app
+
+
+## Server site repo
+https://github.com/israt83/full-stack-task-management-app-server
+
+
+## Admin idp
+- email: hostelhub@gmail.com
+- pass: hostel90
+
+## Key Features
+
+ - Displays upcoming meals: only premium users can like meals.
+ - Admin Meal Management: Add, update meal statuses, and manage requests.
+ - Payment History: Displays payment history with relevant messages.
+
+## Technologies Used
+
+- Frontend: React, Tailwind CSS
+- Backend: Express,JWT
+- Database: MongoDB
+- Authentication: Firebase
+
+
+
+## Running the Project Locally
+
+1- Clone the cleint site repo repository:
+- git clone https://github.com/israt83/full-stack-task-management-app.git
+- cd full-stack-task-management-app-client
+- npm i
+
+2- Set up Firebase for authentication and paste your own credential in firebase.config file.
+
+3- Clone the server site repo repository:
+ - git clone https://github.com/israt83/full-stack-task-management-app-server
+ - set up dependencies : npm i
+ - Set up MongoDB
+ - Set up MongoDB Atlas or run a local instance.
+ - Add your MongoDB connection URI located in index file
+
+- npm run dev in client site  then Open your browser and navigate to http://localhost: port
+- if you want run server as well then write this command in terminal  nodemon index.js , and paste the port in browser
+
+
+
+
