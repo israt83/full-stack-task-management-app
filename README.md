@@ -4,7 +4,7 @@
 
 
 ## Live site url
-https://hostelhub-1b756.web.app
+https://bistro-boss-6c5be.web.app/
 
 
 ## Server site repo
