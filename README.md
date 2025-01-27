@@ -12,21 +12,28 @@ https://github.com/israt83/full-stack-task-management-app-server
 
 
 ## Admin idp
-- email: hostelhub@gmail.com
-- pass: hostel90
+- email: foodhop@gmail.com
+- pass: @Foodhop90
 
-## Key Features
 
- - Displays upcoming meals: only premium users can like meals.
- - Admin Meal Management: Add, update meal statuses, and manage requests.
- - Payment History: Displays payment history with relevant messages.
 
-## Technologies Used
+## **Technologies Used**
 
-- Frontend: React, Tailwind CSS
-- Backend: Express,JWT
-- Database: MongoDB
-- Authentication: Firebase
+### **Frontend**
+- **React**: A JavaScript library for building dynamic user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for fast and responsive styling.
+
+### **Backend**
+- **Express.js**: A Node.js framework for building APIs and server-side logic.
+- **JWT (JSON Web Tokens)**: For secure authentication and authorization.
+- **MongoDB**: A NoSQL database for managing application data.
+
+### **Authentication**
+- **Firebase**: For user authentication and secure login.
+
+### **Payment**
+- **Stripe**: For integrating secure online payments.
+
 
 
 
